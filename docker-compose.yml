@@ -1,0 +1,248 @@
+
+version: '3.7'
+
+services:
+  ipfs-node1:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node1-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node2:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node2-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node3:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node3-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node4:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node4-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node5:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node5-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node6:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node6-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node7:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node7-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node8:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node8-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node9:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node9-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node10:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node10-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node11:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node11-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node12:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node12-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node13:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node13-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node14:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node14-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node15:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node15-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node16:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node16-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node17:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node17-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node18:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node18-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node19:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node19-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node20:
+    image: ipfs/kubo
+    volumes:
+      - ./swarm.key:/data/ipfs/swarm.key
+      - ipfs-node20-data:/data/ipfs
+    environment:
+      - LIBP2P_FORCE_PNET=1
+    networks:
+      - ipfs_network
+
+volumes:
+  ipfs-node1-data:
+  ipfs-node2-data:
+  ipfs-node3-data:
+  ipfs-node4-data:
+  ipfs-node5-data:
+  ipfs-node6-data:
+  ipfs-node7-data:
+  ipfs-node8-data:
+  ipfs-node9-data:
+  ipfs-node10-data:
+  ipfs-node11-data:
+  ipfs-node12-data:
+  ipfs-node13-data:
+  ipfs-node14-data:
+  ipfs-node15-data:
+  ipfs-node16-data:
+  ipfs-node17-data:
+  ipfs-node18-data:
+  ipfs-node19-data:
+  ipfs-node20-data:
+
+networks:
+  ipfs_network:
+    driver: bridge
